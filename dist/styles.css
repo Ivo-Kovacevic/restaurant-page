@@ -1,0 +1,39 @@
+* {
+    font-family: 'Arial';
+    color: rgb(0, 0, 29);
+}
+
+.header {
+    height: 4em;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:hover {
+    border-bottom: 1px rgb(0, 0, 29) solid;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content > div {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5em;
+}
