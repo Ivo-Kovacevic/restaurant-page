@@ -7,17 +7,18 @@
     height: 4em;
 }
 
-ul {
+nav {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
+    margin: 0 5em;
 }
 
-ul li {
-    list-style-type: none;
+.logo {
+    flex-grow: 1;
 }
 
-ul li:hover {
-    border-bottom: 1px rgb(0, 0, 29) solid;
+button:hover {
     cursor: pointer;
 }
 
@@ -28,6 +29,7 @@ ul li:hover {
 
 .content > div {
     flex: 1;
+    margin: 0 5em;
 }
 
 img {
@@ -36,4 +38,16 @@ img {
 
 h1 {
     font-size: 5em;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1em;
+    }
 }
